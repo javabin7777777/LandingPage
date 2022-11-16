@@ -1,0 +1,305 @@
+@import url("css/reset-v2.0-20110126.css");
+
+body {
+	position: relative;
+	width: 1440px;
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* frame 03 */
+.banner{
+	box-sizing: border-box;
+	position: absolute;
+	width: 1440px;
+	height: 605px;
+	left: 0px;
+	top: 0px;
+	border-bottom: 1px solid #33A8DB;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0.2) 100%),url("../img/banner.png");
+}
+.banner .banner-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 16px;
+	position: absolute;
+	width: 510px;
+	height: 393px;
+	left: 465px;
+	top: 56px;
+}
+.banner .banner-content .logo {
+	height: 268px;
+	width: 268px;
+	left: 121px;
+	top: 0px;
+	border-radius: 50%;
+	background: #00000033;
+}
+.banner .banner-content .logo img {
+	height: 214px;
+	width: 248px;
+	left: 131px;
+	top: 27px;
+	border-radius: 0px;
+}
+.banner .banner-content h1 {
+	height: 47px;
+	width: 434px;
+	left: 38px;
+	top: 284px;
+	border-radius: nullpx;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 47px;
+	letter-spacing: 0em;
+	text-align: left;
+	text-transform: uppercase;
+	background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.banner .banner-content p {
+	height: 46px;
+	width: 510px;
+	left: 0px;
+	top: 347px;
+	margin-top: 0px;		
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+}
+.banner .banner-content button {
+	 height: 57px;
+	 width: 326px;
+	 left: 557px;
+	 top: 473px;
+	 margin-top: 20px;
+	 padding: 10px 16px;
+	 background-color: transparent; 
+	 border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+	 border:2px solid;	
+	 font-weight: 700;
+	 font-size: 16px;
+	 line-height: 25px;  /* identical to box height */
+	 text-align: center;
+	 letter-spacing: 0.21em;
+	 color: #31A8DD;
+	 text-transform: uppercase;
+	
+}
+.banner .banner-content button:hover{
+	background-color: darkgreen;
+}
+
+/* frame 08 */
+#course-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	gap: 24px;
+	position: absolute;
+	width: 792px;
+	height: 325px;
+	left: 324px;
+	right: 323px;
+	top: 723px;
+	
+}
+#course-content h2 {
+	width: 477px;
+	height: 38px;	
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;	/* idêntico a altura do box (tag h2) */
+	letter-spacing: 0.19em;
+	color: #33A8DB;	
+}
+#course-content p {
+	width: 792px;
+	height: 38px;	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;	
+}
+.modules-list {
+	margin:24px 0;
+	text-align: center;
+
+}
+.module {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px 127px;
+	gap: 10px;
+	width: 535px;
+	height: 51px;
+	margin-bottom: 20px;
+	background: #252525;
+	border: 1px solid #33A8DB;
+	box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+	border-radius: 57px;	
+}
+.module:hover{
+	background-color: olive;
+}
+#id1 {
+	width: 281px;
+	height: 19px;	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;/* identical to box height */
+	color: #33A8DB;
+	/* Inside auto layout */
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+#id2 {
+	width: 328px;
+	height: 19px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;/* identical to box height */
+	color: #33A8DB;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+#id3 {
+	width: 411px;
+	height: 19px;	
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;/* identical to box height */
+	color: #33A8DB;
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+}
+
+/* frame 10 */
+#transform-world {	
+	box-sizing: border-box;
+	position: absolute;
+	width: 1440px;
+	height: 420px;
+	left: 0px;
+	top: 1138px;	
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-color: #33A8DB;
+	background-image: url("../img/woman.png");
+	background-size: contain;
+	background-position: center center;		
+	background-attachment: fixed;
+}
+#transform-world p {
+	position: absolute;
+	width: 244px;
+	height: 141px;
+	left: 198px;
+	top: 0px;	
+	font-weight: 900;
+	font-size: 40px;
+	text-transform: lowercase;
+	line-height: 47px;
+	color: #FFFFFF;
+}
+#transform-world p:hover{
+	text-shadow: 3px 2px 0px #33A8DB;
+}
+
+/* Image3,Evolua e encare... ,Junte-se a nós... */
+#professional-challenges {
+	width: 1440px;	
+	text-align: center;
+}
+#professional-challenges h2 {
+	position: absolute;	
+	width: 746px;
+	height: 76px;
+	left: 347px;
+	top: 1577px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	letter-spacing: 0.19em;
+	color: #33A8DB;
+}
+#professional-challenges img {
+	position: absolute;	
+	width: 659px;
+	height: 429px;
+	left: 390px;
+	top: 1685px;
+	margin-top: 25px;
+}
+#professional-challenges p {
+	position: absolute;	
+	width: 792px;
+	height: 76px;
+	left: 324px;
+	top: 2154px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;	
+	color: #ffffff;
+	margin-top: 25px;
+}
+
+/* frame 09  */
+footer {	
+	box-sizing: border-box;
+	position: absolute;
+	width: 1440px;
+	height: 170px;
+	left: 0px;
+	top: 2321px;
+	text-align: center;
+	background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+	border-top: 1px solid #33A8DB;
+}
+footer .dio-logo {		
+	position: absolute;
+	width: 310px;
+	height: 44px;
+	left: 565px;
+	top: 59px;
+}
+footer p {  
+	position: absolute;
+	width: 259px;
+	height: 19px;
+	left: 591px;
+	top: 113px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px; /* altura da linha igual a altura do box(tag <p>) */	
+	color: #ffffff
+}
+footer p a {
+	text-decoration: none;
+	color: #33a8db;
+}
+
+/*Figma: https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=0%3A1*/
